@@ -1,0 +1,36 @@
+body {
+   font-family: Arial;
+   background-color: rgb(246, 247, 248);
+   overscroll-behavior: none;
+}
+
+#content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
+
+button {
+   background-color: #1c0380;
+   color: #fff;
+   font-family: inherit;
+   font-size: 16px;
+   font-weight: 500;
+   border-radius: 11px;
+   position: relative;
+   line-height: 24px;
+   cursor: pointer;
+   color: var(color);
+}
+
+button:hover {
+   background-color: rgb(6, 6, 222);
+}
+
+button:disabled,
+button:disabled:hover {
+   background-color: gray;
+   cursor: default;
+}
