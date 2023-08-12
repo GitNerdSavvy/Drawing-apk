@@ -34,3 +34,19 @@ button:disabled:hover {
    background-color: gray;
    cursor: default;
 }
+
+@media screen and (max-width: 768px) {
+   body {
+      font-size: 14px;
+   }
+   
+   #content {
+      width:100%;
+      overflow: hidden;
+   }
+   
+   button {
+      font-size: 14px;
+      line-height: 20px;
+   }
+}
